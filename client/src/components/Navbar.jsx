@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ArchiveDropdown from "./ArchiveDropdown";
 const Navbar = () => {
   return (
-    <header className="flex justify-between px-24 py-6">
+    <header className="flex justify-between px-24 py-4 border-b border-zinc-100 items-center">
       <div className="logo">
         <img src={logo} width={130} alt="" />
       </div>
