@@ -12,7 +12,7 @@ const ArchiveDropdown = () => {
     <div className="relative inline-block text-left">
       <Link
         to="#"
-        className="text-slate-800 font-medium text-base"
+        className="navLink text-slate-800 font-medium text-base"
         id="archive-menu-button"
         onClick={toggleDropdown}
       >
@@ -26,8 +26,8 @@ const ArchiveDropdown = () => {
         >
           <div className="py-1" role="none">
             <Link
-              href="#"
-              className="block px-4 py-2 text-slate-800 font-medium text-base hover:bg-gray-100"
+              to="/monthly-archive"
+              className="navLink block px-4 py-2 text-slate-800 font-medium text-base hover:bg-gray-100"
               role="menuitem"
               tabIndex="-1"
               id="archive-menu-item-0"
@@ -35,8 +35,8 @@ const ArchiveDropdown = () => {
               Monthly archive
             </Link>
             <Link
-              href="#"
-              className="block px-4 py-2 text-slate-800 font-medium text-base hover:bg-gray-100"
+              to="/yearly-archive"
+              className="navLink block px-4 py-2 text-slate-800 font-medium text-base hover:bg-gray-100"
               role="menuitem"
               tabIndex="-1"
               id="archive-menu-item-1"

@@ -6,6 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Tags from "./pages/Tags.jsx";
 import Authors from "./pages/Authors.jsx";
+import MonthArchive from "./pages/MonthArchive.jsx";
+import YearArchive from "./pages/YearArchive.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
   {
     path: "/authors",
     element: <App element={<Authors />} />,
+  },
+  {
+    path: "/monthly-archive",
+    element: <App element={<MonthArchive />} />,
+  },
+  {
+    path: "/yearly-archive",
+    element: <App element={<YearArchive />} />,
+  },
+  {
+    path: "/contact",
+    element: <App element={<Contact />} />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

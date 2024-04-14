@@ -12,19 +12,25 @@ const Navbar = () => {
       <nav className="">
         <ul className="flex gap-10">
           <li>
-            <Link to="/" className="text-slate-800 font-medium text-base">
+            <Link
+              to="/"
+              className="navLink text-slate-800 font-medium text-base"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/tags" className="text-slate-800 font-medium text-base">
+            <Link
+              to="/tags"
+              className="navLink text-slate-800 font-medium text-base"
+            >
               Tags
             </Link>
           </li>
           <li>
             <Link
               to="/authors"
-              className="text-slate-800 font-medium text-base"
+              className="navLink text-slate-800 font-medium text-base"
             >
               Authors
             </Link>
@@ -35,7 +41,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/contact"
-              className="text-slate-800 font-medium text-base"
+              className="navLink text-slate-800 font-medium text-base"
             >
               contact
             </Link>
