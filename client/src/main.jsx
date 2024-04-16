@@ -9,6 +9,7 @@ import Authors from "./pages/Authors.jsx";
 import MonthArchive from "./pages/MonthArchive.jsx";
 import YearArchive from "./pages/YearArchive.jsx";
 import Contact from "./pages/Contact.jsx";
+import SingleBlogPage from "./pages/SingleBlogPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <App element={<Contact />} />,
+  },
+  {
+    path: "/single-blog",
+    element: <App element={<SingleBlogPage />} />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
