@@ -3,7 +3,9 @@ import author3 from "../images/biswajit.webp";
 import girlImg from "../images/girl-waring-woolen-sawl.webp";
 import FormatQuoteOutlinedIcon from "@mui/icons-material/FormatQuoteOutlined";
 import { Link } from "react-router-dom";
-
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import PinterestIcon from "@mui/icons-material/Pinterest";
 const SingleBlogPage = () => {
   return (
     <main className=" mt-12 px-24 ">
@@ -93,6 +95,38 @@ const SingleBlogPage = () => {
               in my power.
             </li>
           </ul>
+          <div className="share">
+            <h4>Share This Article</h4>
+            <ul>
+              <li>
+                <Link>
+                  <FacebookIcon />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  <TwitterIcon />
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  <PinterestIcon />
+                </Link>
+              </li>
+              <li>
+                <Link></Link>
+              </li>
+              <li>
+                <Link></Link>
+              </li>
+              <li>
+                <Link></Link>
+              </li>
+              <li>
+                <Link></Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
