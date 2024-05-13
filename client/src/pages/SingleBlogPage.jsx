@@ -104,7 +104,7 @@ const SingleBlogPage = () => {
             <h4 className="text-xl text-slate-800 font-medium">
               Share This Article
             </h4>
-            <ul className="flex justify-center gap-5 mt-5">
+            <ul className="flex justify-center gap-5 max-sm:gap-3 mt-5">
               <li>
                 <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
                   <FacebookOutlinedIcon />
