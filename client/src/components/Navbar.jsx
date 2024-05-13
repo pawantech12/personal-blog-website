@@ -54,7 +54,7 @@ const Navbar = () => {
         <ul
           className={`md:flex ${
             isOpen ? "flex" : "hidden"
-          } flex-col gap-4 md:flex-row md:gap-6 items-center text-lg text-slate-800 max-md:text-neutral-800 font-normal max-md:absolute max-md:right-[15%] max-md:top-[13%] w-40 md:w-fit max-md:py-4 max-md:bg-white max-md:rounded-lg max-md:shadow-lg border border-slate-100`}
+          } flex-col gap-4 md:flex-row md:gap-6 items-center text-lg text-slate-800 max-md:text-neutral-800 font-normal max-md:absolute max-md:right-[15%] max-md:top-[13%] w-40 md:w-fit max-md:py-4 max-md:bg-white max-md:rounded-lg max-md:shadow-lg max-md:border max-md:border-slate-100`}
         >
           <li>
             <Link
