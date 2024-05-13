@@ -4,17 +4,22 @@ import girlImg from "../images/girl-waring-woolen-sawl.webp";
 import FormatQuoteOutlinedIcon from "@mui/icons-material/FormatQuoteOutlined";
 import { Link } from "react-router-dom";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import PinterestIcon from "@mui/icons-material/Pinterest";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
+import LinkOutlinedIcon from "@mui/icons-material/LinkOutlined";
+import Subscribe from "../components/Subscribe";
 const SingleBlogPage = () => {
   return (
-    <main className=" mt-12 px-24 ">
-      <section className="w-10/12 mx-auto">
+    <main className=" mt-12 px-24 max-sm:px-4">
+      <section className="w-10/12 max-md:w-full mx-auto">
         <div className="blogHeader">
-          <h1 className="text-5xl text-slate-800 font-semibold">
+          <h1 className="text-5xl text-slate-800 max-sm:text-3xl max-sm:text-center font-semibold">
             Self-observation is the first step of inner unfolding
           </h1>
-          <div className="metaData mt-5 flex items-center gap-8">
+          <div className="metaData mt-5 flex max-sm:flex-col max-sm:gap-2 items-center gap-8">
             <div className="author flex items-center gap-2">
               <img
                 src={author3}
@@ -95,40 +100,51 @@ const SingleBlogPage = () => {
               in my power.
             </li>
           </ul>
-          <div className="share">
-            <h4>Share This Article</h4>
-            <ul>
+          <div className="share text-center mt-12">
+            <h4 className="text-xl text-slate-800 font-medium">
+              Share This Article
+            </h4>
+            <ul className="flex justify-center gap-5 mt-5">
               <li>
-                <Link>
-                  <FacebookIcon />
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
+                  <FacebookOutlinedIcon />
                 </Link>
               </li>
               <li>
-                <Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
                   <TwitterIcon />
                 </Link>
               </li>
               <li>
-                <Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
                   <PinterestIcon />
                 </Link>
               </li>
               <li>
-                <Link></Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
+                  <WhatsAppIcon />
+                </Link>
               </li>
               <li>
-                <Link></Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
+                  <LinkedInIcon />
+                </Link>
               </li>
               <li>
-                <Link></Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
+                  <MailOutlineOutlinedIcon />
+                </Link>
               </li>
               <li>
-                <Link></Link>
+                <Link className="bg-zinc-100 p-2 flex justify-center items-center w-fit text-slate-800 rounded-full">
+                  <LinkOutlinedIcon />
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </section>
+      <Subscribe />
     </main>
   );
 };

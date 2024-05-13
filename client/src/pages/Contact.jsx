@@ -3,8 +3,8 @@ import Subscribe from "../components/Subscribe";
 
 const Contact = () => {
   return (
-    <main className=" mt-12 px-24 ">
-      <section className="w-1/2 flex flex-col mx-auto">
+    <main className=" mt-12 px-24 max-sm:px-4">
+      <section className="w-1/2 max-md:w-11/12 flex flex-col mx-auto">
         <h2 className="text-5xl text-slate-800 font-semibold">Contact Me</h2>
         <p className="text-slate-800 text-lg mt-6">
           Hello! Do you have any question or suggestion about this site, or just

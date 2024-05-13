@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const FeaturedPostCard = ({ img, title, tag, desc, date }) => {
   return (
-    <div className="card flex shadow-[0px_3px_8px_0px_rgba(30,41,59,0.24)] rounded-xl p-3  gap-5">
-      <div className="img w-80 h-56">
+    <div className="card max-md:flex-col flex shadow-[0px_3px_8px_0px_rgba(30,41,59,0.24)] rounded-xl p-3  gap-5">
+      <div className="img w-80 max-md:w-full h-56">
         <img
           src={img}
           className="rounded-md w-full h-full object-cover"

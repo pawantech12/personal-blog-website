@@ -23,7 +23,7 @@ const ArchiveDropdown = () => {
   }, []);
 
   return (
-    <div className="relative inline-block text-left" ref={menuRef}>
+    <div className="relative inline-block text-left z-10" ref={menuRef}>
       <Link
         to="#"
         className="navLink text-slate-800 font-medium text-base"

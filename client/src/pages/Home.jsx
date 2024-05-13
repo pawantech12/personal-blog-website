@@ -12,9 +12,9 @@ import LatestPost from "../components/LatestPost";
 const Home = () => {
   return (
     <>
-      <main className="px-24 mt-5">
-        <section className="hero flex justify-between gap-4 items-center">
-          <div className="content flex flex-col gap-6 w-1/2">
+      <main className="px-24 mt-5 max-sm:px-5">
+        <section className="hero flex justify-between gap-4 items-center max-md:flex-col">
+          <div className="content flex flex-col gap-6 w-full">
             <h1 className="text-slate-800 text-6xl font-bold">
               Hay, I am Pawan
             </h1>
@@ -60,7 +60,7 @@ const Home = () => {
               </ul>
             </div>
           </div>
-          <div className="img flex justify-center">
+          <div className="img flex justify-center max-md:hidden">
             <img src={HeroImg} className="rounded-full" alt="" />
           </div>
         </section>

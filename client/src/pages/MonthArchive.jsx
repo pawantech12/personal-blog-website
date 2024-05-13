@@ -5,12 +5,12 @@ import Subscribe from "../components/Subscribe";
 function MonthArchive() {
   return (
     <>
-      <main className="mt-12 px-24">
+      <main className="mt-12 px-24 max-sm:px-4">
         <section className=" flex items-center flex-col">
           <h2 className="text-center text-5xl text-slate-800 font-semibold">
             Monthly Archive
           </h2>
-          <div className="archiveContainer w-2/3 mt-12 flex flex-col gap-6">
+          <div className="archiveContainer w-2/3 max-sm:w-11/12 mt-12 flex flex-col gap-6">
             <div className="archiveCard flex flex-col gap-2">
               <h4 className="text-blue-600 text-2xl font-medium">May 2022</h4>
               <hr />

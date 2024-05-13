@@ -8,10 +8,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="px-24 mt-20 border-t border-zinc-100 py-20">
-      <div className="footertop flex justify-between flex-wrap">
+    <footer className="px-24 mt-20 max-sm:px-4 border-t border-zinc-100 py-20">
+      <div className="footertop flex justify-between max-md:flex-col max-md:gap-5 max-md:text-center flex-wrap">
         <div className="logoDesc">
-          <img src={logo} width={100} alt="" />
+          <img src={logo} width={100} className=" mx-auto" alt="" />
           <p>A premium gastby blog template</p>
         </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footerBootom mt-12 flex justify-between">
+      <div className="footerBootom mt-12 flex max-sm:flex-col max-sm:items-center max-sm:gap-3 justify-between">
         <div className="socialLinkContainer flex gap-3 items-center">
           <h5>Follow:</h5>
           <ul className="flex gap-3 text-slate-800">
