@@ -6,8 +6,7 @@
 
 ## Demo
 
-Insert gif or link to demo
-
+https://github.com/pawantech12/personal-blog-website/assets/118673866/3c3a0d35-38c0-4a7f-9c68-e2fd15d32505
 
 ## Project Pages and Components:
 
